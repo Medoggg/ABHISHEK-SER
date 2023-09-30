@@ -20,13 +20,13 @@ var user = number + '@s.whatsapp.net'
 } catch (e) {
 } finally {
 conn.groupParticipantsUpdate(m.chat, [user], 'demote')
-m.reply(`✅ User demoted`)
+m.reply(`✅ تم ازاله الاشرف `)
 }
 
 }
 handler.help = ['demote (@tag)']
 handler.tags = ['group']
-handler.command = ['demote', 'degradar'] 
+handler.command = ['تخفيض', 'degradar'] 
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
